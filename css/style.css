@@ -1,0 +1,170 @@
+.one {
+  background-image: url("../imige/palmebi.png");
+  width: 100%;
+  color: white;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  align-items: center;
+}
+header img {
+  display: none;
+}
+ul {
+  display: flex;
+  column-gap: 49px;
+}
+h2 {
+  width: 100%;
+  max-width: 555px;
+  font-size: 62px;
+  margin-top: 191px;
+  margin-left: 139px;
+}
+.first {
+  width: 100%;
+  max-width: 353px;
+  font-size: 14px;
+  margin-top: 23px;
+  margin-left: 139px;
+}
+.left {
+  background-color: white;
+  width: 51px;
+  height: 51px;
+}
+.right {
+  background-color: blueviolet;
+  height: 51px;
+  width: 51px;
+}
+.right img,
+.left img {
+  width: 15px;
+  height: 15px;
+}
+.right,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.isrebi {
+  display: flex;
+  margin-left: 75%;
+  margin-top: 84px;
+}
+.pirv h1 {
+  width: 100%;
+  max-width: 353px;
+  font-size: 42px;
+}
+.pirv p {
+  width: 100%;
+  max-width: 445px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+button {
+  margin-top: 36px;
+  background-color: #5863f8;
+  width: 184px;
+  height: 50px;
+  font-size: 13px;
+  color: white;
+}
+.meore {
+  width: 536px;
+}
+.two {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+}
+.zetta {
+  color: white;
+  width: 127px;
+  height: 18px;
+  font-size: 24;
+  margin-left: 139px;
+  padding-top: 59px;
+}
+.pirv {
+  min-width: 272px;
+}
+footer p {
+  color: white;
+  margin-top: 26px;
+  width: 680px;
+  height: 83px;
+  font-size: 14px;
+  margin-left: 139px;
+}
+.fb {
+  margin-left: 139px;
+  margin-top: 10px;
+}
+.meorep {
+  width: 553px;
+  height: 16px;
+  font-size: 14px;
+  margin-left: 139px;
+}
+span {
+  color: #5863f8;
+}
+
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  h2 {
+    margin-left: 0px;
+    font-size: 45px;
+    padding-left: 10px;
+  }
+  .first {
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+  .kibe {
+    width: 220px;
+  }
+  .wyali {
+    width: 220px;
+  }
+  .mwvane {
+    width: 450px;
+  }
+  .zetta {
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+  .fp {
+    margin-left: 0px;
+    padding-left: 10px;
+    font-size: 8px;
+  }
+  .fb {
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+  .meorep {
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+  .one header img {
+    display: block;
+  }
+}
